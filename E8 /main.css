@@ -1,0 +1,13 @@
+body {
+  margin: 0
+}
+div{
+  width: 200px;
+  height: 200px;
+  background-color: black;
+}
+.relative {
+  background-color: teal;
+  width: 800px
+  height: 200px
+}
