@@ -1,13 +1,19 @@
 body {
-  margin: 0
-}
-div{
-  width: 200px;
-  height: 200px;
-  background-color: black;
+  margin: 0;
 }
 .relative {
-  background-color: teal;
-  width: 800px
-  height: 200px
+  background-color: red;
+  width: 800px;
+  height: 400px;
+  position: relative;
+  top: 115px;
+  left: 321px;
+}
+.circle {
+  background-color: hotpink;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 100px;
+  left: 400px;
 }
