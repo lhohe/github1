@@ -2,18 +2,110 @@ body {
   margin: 0;
 }
 .relative {
-  background-color: red;
+  background-color: palegreen;
   width: 800px;
   height: 400px;
   position: relative;
   top: 115px;
-  left: 321px;
+  left: 290px;
 }
 .circle {
-  background-color: hotpink;
-  width: 100px;
-  height: 100px;
-  position: relative;
-  top: 100px;
+  background-color: peru;
+  width: 225px;
+  height: 225px;
+  position: absolute;
+  top: 210px;
   left: 400px;
+  border-radius: 50%;
+}
+.circle1 {
+  background-color: peru;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 272px;
+  left: 361px;
+  border-radius: 50%;
+}
+.circle2 {
+  background-color: peru;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 272px;
+  left: 595px;
+  border-radius: 50%;
+}
+.face {
+  background-color: darkorange;
+  width: 163px;
+  height: 163px;
+  position: absolute;
+  top: 255px;
+  left: 432px;
+  border-radius: 50%;
+}
+.face1 {
+  background-color: peru;
+  width: 72px;
+  height: 48px;
+  position: absolute;
+  top: 225px;
+  left: 476px;
+  border-radius: 50%;
+}
+  .smile {
+  position: absolute;
+  top: 361px;
+  left: 497px;
+  width: 25px;
+  height: 25px;
+  background: none;
+  border-radius: 100%;
+  border: 2px solid;
+  border-color: chocolate
+}
+.smile1 {
+  background-color: darkorange;
+  width: 50px;
+  height: 25px;
+  position: absolute;
+  top: 351px;
+  left: 488px;
+}
+.eye {
+  background-color: black;
+  width: 12px;
+  height: 20px;
+  position: absolute;
+  top: 322px;
+  left: 483px;
+  border-radius: 50%;
+}
+.eye1 {
+  background-color: black;
+  width: 12px;
+  height: 20px;
+  position: absolute;
+  top: 322px;
+  left: 527px;
+  border-radius: 50%;
+}
+.nose {
+  background-color: black;
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  top: 343px;
+  left: 512px;
+  border-radius: 50%;
+}
+.nose1 {
+  background-color: black;
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  top: 343px;
+  left: 502px;
+  border-radius: 50%;
 }
