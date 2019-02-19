@@ -59,7 +59,7 @@ body {
   top: 361px;
   left: 497px;
   width: 25px;
-  height: 25px;
+  height: 10px;
   background: none;
   border-radius: 100%;
   border: 2px solid;
@@ -68,7 +68,7 @@ body {
 .smile1 {
   background-color: darkorange;
   width: 50px;
-  height: 25px;
+  height: 10px;
   position: absolute;
   top: 351px;
   left: 488px;

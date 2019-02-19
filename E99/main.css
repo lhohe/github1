@@ -1,0 +1,22 @@
+body{
+  margin: 0;
+  background-color: purple;
+}
+a {
+  text-align: center;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: white;
+  text-decoration: none;
+  border-bottom: 4px solid: blue;
+  cursor: default;
+  transition: color 1s ease;
+}
+a:hover {
+  color: yellow;
+}
+h1{
+  text-align: center;
+}
