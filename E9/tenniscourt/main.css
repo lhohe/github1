@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+body {
+margin: 0;
+}
+div {
+  width: 100px;
+  height: 400px;
+  float: left;
+}
+.board{
+  width: 600px;
+}
+.coral {
+  background-color: coral;
+}
+
+.black {
+  background-color: black;
+}
