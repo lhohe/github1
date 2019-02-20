@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+div {
+  float: left;
+}
+.board {
+  width: 900px;
+}
+
+.whitecircle {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+}
+.lightyellowcircle {
+    width: 150px;
+    height: 150px;
+    background-color: lightyellow;
+    border-radius: 50%;
+}
+.yellowcircle {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+.darkorangecirlce {
+    width: 150px;
+    height: 150px;
+    background-color: darkorange;
+    border-radius: 50%;
+}
+.crimsoncircle {
+    width: 150px;
+    height: 150px;
+    background-color: crimson;
+    border-radius: 50%;
+}
+.darkredcircle {
+    width: 150px;
+    height: 150px;
+    background-color: darkred;
+    border-radius: 50%;
+}
