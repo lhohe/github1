@@ -1,20 +1,56 @@
-<style>
-  * {
-    font-family: sans-serif;
-    text-align: / center;
-    color: Black;
-  }
-  body {
-    background-color: LightCyan;
-  }
-  a{
-      font-size: 25px;
-      text-decoration-color: white;
-      text-decoration-style: none;
-      color: white;
-  }
+*{
+    box-sizing: border-box;
+}
+body{
+  margin: auto;
 
-  a:hover{
-      color: yellow;
-  }
-  </style>
+}
+
+.title{
+  font-family: 'Bad Script', cursive;
+  color:  #9A031E;
+  font-size: 3em;
+  line-height: 2.7em;
+  margin-left: 165px;
+  margin-top: -44px;
+
+
+
+}
+.author{
+  font-family: 'Crimson Text', serif;
+  font-size: 1em;
+  font-style: normal;
+  margin-left: 200px;
+  margin-top: 155px;
+
+
+}
+.text{
+  font-family: 'Crimson Text', serif;
+  font-size: 1.3em;
+  width: 345px;
+
+  margin: -343px 716px;
+}
+.t2{
+  position: absolute;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.3em;
+  text-align: left;
+  width: 345px;
+  margin-top: 79px;
+  margin-left: 170px;
+  line-height: 1.5em;
+}
+
+a{
+  font-weight: bold;
+  letter-spacing: .7px;
+  color: pink;
+  text-decoration: none;
+  transition: color 1s ease;
+}
+a:hover{
+  color: white;
+}
