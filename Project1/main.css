@@ -1,0 +1,20 @@
+<style>
+  * {
+    font-family: sans-serif;
+    text-align: / center;
+    color: Black;
+  }
+  body {
+    background-color: LightCyan;
+  }
+  a{
+      font-size: 25px;
+      text-decoration-color: white;
+      text-decoration-style: none;
+      color: white;
+  }
+
+  a:hover{
+      color: yellow;
+  }
+  </style>
