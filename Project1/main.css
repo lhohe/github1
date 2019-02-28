@@ -32,11 +32,14 @@ body{
   margin-top: 260px;
 
 }
+.images {
+  width: 50px;
+  margin-left: 400px;
+}
 
 a{
   font-family: 'Righteous', cursive;
   font-weight: bold;
-  letter-spacing: .7px;
   color: pink;
   text-decoration: none;
   transition: color 1s ease;
