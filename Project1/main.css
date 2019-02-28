@@ -3,6 +3,7 @@
 }
 body{
   margin: auto;
+  background-color: LightCyan;
 }
 
 .title {
@@ -14,9 +15,17 @@ body{
 .author {
   font-family: 'Encode Sans Condensed', sans-serif;
   font-size: 15px;
+  margin-left: 200px;
   color: teal;
 }
 .text {
+  font-family: 'Encode Sans Condensed', sans-serif;
+  color: teal;
+  margin-left: 200px;
+  /* margin-top: 155px; */
+
+}
+.interior-text {
   font-family: 'Encode Sans Condensed', sans-serif;
   color: teal;
   margin-left: 200px;
