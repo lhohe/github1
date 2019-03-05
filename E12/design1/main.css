@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  margin: auto;
+}
+
+.title {
+  font-family: 'Minon Variable Concept', sans-serif;
+  margin-left: 200px;
+  margin-top: 155px;
+  margin-left: 500px;
+}
+.author {
+  font-family: 'Minon Variable Concept', sans-serif;
+  font-size: 15px;
+  margin-left: 200px;
+  margin-left: 500px;
+}
+.chapter {
+  font-family: 'Minon Variable Concept', sans-serif;
+  font-size: 15px;
+  margin-left: 200px;
+}
+.chaptertitle {
+  font-family: 'Minon Variable Concept', sans-serif;
+  font-size: 15px;
+  margin-left: 200px;
+}
+.text {
+  font-family: 'Minon Variable Concept', sans-serif;
+  margin-left: 500px;
+  margin-right: 300px;
+  /* margin-top: 155px; */
+
+}
