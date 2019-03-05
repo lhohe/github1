@@ -2,35 +2,25 @@
     box-sizing: border-box;
 }
 body{
-  margin: auto;
-}
-
-.title {
-  font-family: 'Minon Variable Concept', sans-serif;
-  margin-left: 200px;
-  margin-top: 155px;
-  margin-left: 500px;
-}
-.author {
-  font-family: 'Minon Variable Concept', sans-serif;
+  margin: 0;
   font-size: 15px;
-  margin-left: 200px;
-  margin-left: 500px;
-}
-.chapter {
   font-family: 'Minon Variable Concept', sans-serif;
-  font-size: 15px;
-  margin-left: 200px;
 }
-.chaptertitle {
-  font-family: 'Minon Variable Concept', sans-serif;
-  font-size: 15px;
-  margin-left: 200px;
+#container {
+  width: 500px;
+  margin-left: 450px;
+  margin-top: 100px;
+  margin-bottom: 200px;
 }
-.text {
-  font-family: 'Minon Variable Concept', sans-serif;
-  margin-left: 500px;
-  margin-right: 300px;
-  /* margin-top: 155px; */
-
+.fixed {
+  z-index: -1;
+  background-color: lightblue;
+  width: 500px;
+  height: 575px;
+  position: fixed;
+  margin-left: 300px;
+  margin-top: -50px;
+}
+.chaptertitile {
+  margin: 50px;
 }
