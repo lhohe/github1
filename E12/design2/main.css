@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-size: 19px;
+  font-family: 'Franklin Gothic Light', sans-serif;
+}
+#container {
+  width: 450px;
+  margin-left: 10px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.title {
+  font-size: 30px;
+}
+.chapter {
+  transform: rotate(90deg);
+  margin-left: 385px;
+  margin-top: 175px;
+  position: fixed;
+}
+.image {
+  margin-left: 350px;
+  margin-top: 0px;
+}
