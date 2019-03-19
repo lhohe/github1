@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font: 25px;
+  background-color: lavender;
+}
+main {
+    width: 95vw;
+    margin: 25px; auto;
+}
+@media only screen and (min-width:
+  600px) {
+  body {
+    background-color: orange;
+  }
+  main {
+    width: 80vw;
+  }
+  h1 {
+    font-size: 6em;
+  }
+}
+@media only screen and (min-width:
+  900px) {
+  body {
+    background-color: violet;
+    }
+  }
+@media only screen and (min-width:
+  1200px) {
+  body {
+    background-color: darkviolet;
+    }
+  }
