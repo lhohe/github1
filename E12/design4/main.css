@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-size: 15px;
+  font-family: 'Minon Variable Concept', sans-serif;
+}
+#container {
+  width: 500px;
+  margin-left: 400px;
+  margin-top: 15px;
+  margin-bottom: 200px;
+}
+.headline {
+  background-color: lightblue;
+  width: 1400px;
+  height: 100px;
+  margin-top: 50px;
+  z-index: -1;
+}

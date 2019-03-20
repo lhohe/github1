@@ -7,16 +7,18 @@ body {
   background-color: lavender;
 }
 main {
-    width: 95vw;
-    margin: 25px; auto;
+    width: 87vw;
+    margin: 40px; auto;
 }
 @media only screen and (min-width:
-600px) {
+  600px) {
   body {
-    background-color: purple;
+    background-color: violet;
   }
-  @media only screen and (min-width:
+}
+@media only screen and (min-width:
   1200px) {
     body {
-      background-color: black;
+      background-color: orange;
     }
+}
