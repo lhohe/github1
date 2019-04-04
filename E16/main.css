@@ -1,0 +1,26 @@
+body {
+  margin: 0
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.full {
+  width: 100vw;
+  height: 100vh;
+}
+#list-name {
+  background-color: lavender;
+}
+#number1 {
+  background-color: orange;
+  transition: all 2s ease;
+}
+.h1 {
+  margin: 0;
+  padding: 40vh 0 0 0;
+  text-align:center;
+  font-family: 'Abel' sans-serif;
+  letter-spacing: 1px;
+  font-weight: bold;
+  transition: all 2s ease;
+  curser: cell;
+}

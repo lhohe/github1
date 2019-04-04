@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Passion One', cursive;
+}
+main {
+  width: 90vw;
+  margin: 25px auto;
+}
+#container {
+  width: 400px
+}
+
+.img {
+  width: 30px;
+  height: 30px;
+}
+.redbox {
+  margin-top: 30px;
+  background-color: tomato;
+  width: 1440px;
+  height: 300px;
+  z-index: -1;
+}
+@media only screen and (min-width: 320px) {
+  main {
+    width: 320px;
+    height: 500px;
+}
+@media only screen and (min-width: 1024px) {
+  main {
+    width: 1024px;
+    height: 400px;
+}
+@media only screen and (min-width: 1400px) {
+  main {
+    width: 1440px;
+    height: 300px;
+}
