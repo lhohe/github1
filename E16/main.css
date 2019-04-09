@@ -5,7 +5,7 @@ body {
 }
 .full {
   width: 100vw;
-  height: 75vh;
+  height: 70vh;
 }
 .halfleft {
   width: 50vw;
@@ -17,24 +17,59 @@ body {
   height: 50vh;
   margin-left: 550px;
 }
+
 #list-name {
-  background-color: whitesmoke;
+  background-color: grey;
 }
 #color-1 {
-  transition: all 2s ease;
+  transition: all 1s ease;
+}
+.color-1 {
   background-color: hotpink;
 }
+.b1 {
+  color: white;
+  background-color: orange;
+}
 #color-2 {
-  background-color: dodgerblue;
+  transition: all 1s ease;
+}
+.color-2 {
+  background-color: purple;
+}
+.b2 {
+  color: white;
+  background-color: teal;
 }
 #color-3 {
+  transition: all 1s ease;
+}
+.color-3 {
   background-color: yellow;
 }
+.b3 {
+  color: white;
+  background-color: hotpink;
+}
 #color-4 {
+  transition: all 1s ease;
+}
+.color-4 {
   background-color: pink;
 }
+.b4 {
+  color: white;
+  background-color: yellow;
+}
 #color-5 {
+  transition: all 3s ease;
+}
+.color-5 {
   background-color: green;
+}
+.b5 {
+  color: white;
+  background-color: blue;
 }
 
 h1 {
@@ -46,10 +81,10 @@ h1 {
   text-transform: uppercase;
   letter-spacing: .1em;
   font-weight: bold;
-  transition: all 3s ease;
+  /* transition: all 2s ease; */
 
 }
 span {
-  transition: all 3s ease;
+  /* transition: all 2s ease; */
   cursor: pointer;
 }
