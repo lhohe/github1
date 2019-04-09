@@ -7,11 +7,22 @@ body {
   width: 100vw;
   height: 100vh;
 }
+.halfleft {
+  width: 50vw;
+  height: 50vh;
+  margin-left: 100px;
+}
+.halfright {
+  width: 50vw;
+  height: 50vh;
+  margin-left: 550px;
+}
 #list-name {
   background-color: whitesmoke;
 }
 #color-1 {
   transition: all 2s ease;
+  background-color: hotpink;
 }
 .tomato {
   background-color: tomato;
@@ -37,7 +48,7 @@ h1 {
   margin: 0;
   padding: 40vh 0 0 0;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Ubuntu Condensed', sans-serif;
   text-transform: uppercase;
   letter-spacing: .1em;
   font-weight: bold;
