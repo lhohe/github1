@@ -1,8 +1,10 @@
 $(document).ready(function() {
-
-  $('#number1').click(function() {
-    $('#number1').css('color', 'yellow');
-    $('color1').css('background-color','black');
-    $('color1').toggleClass('black');
+  // $('h1').css('color', 'white');
+  $('#number5').click(function() {
+    $('#number5').css('color', 'white');
+    $('#bird-5').toggleClass('black');
+  });
+  $('#number4').click(function() {
+    $('#number4').css('color', 'goldenrod');
   });
 });
