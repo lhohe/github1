@@ -10,7 +10,7 @@ body {
 #list-name {
   background-color: whitesmoke;
 }
-#bird-5 {
+#color-1 {
   transition: all 2s ease;
 }
 .tomato {
@@ -19,9 +19,19 @@ body {
 .black {
   background-color: black;
 }
-#bird-4 {
+#color-2 {
   background-color: dodgerblue;
 }
+#color-3 {
+  background-color: yellow;
+}
+#color-4 {
+  background-color: pink;
+}
+#color-5 {
+  background-color: green;
+}
+
 h1 {
   font-size: 5em;
   margin: 0;
