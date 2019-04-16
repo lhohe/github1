@@ -7,28 +7,36 @@ h1 {
   text-transform: uppercase;
   letter-spacing: .1em;
 }
+h2 {
+  color: white;
+  margin: 0;
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: .1em;
+  text-align: center;
+}
 .background {
   z-index: -2;
   background-color: green;
   width: 500px;
   height: 575px;
   position: fixed;
-  margin-left: 400px;
+  margin-left: 375px;
   margin-top: 40px;
 }
 input {
     width: 30vw;
     height: 30px;
     margin-top: 50px;
-    margin-left: 450px;
+    margin-left: 430px;
     font-size: 30px;
     padding: 25px 0;
     text-align: center;
 }
 .button {
+  z-index: -1;
     width: 200px;
-    height: 20px;
-    margin-left: 800px;
+    /* height: 20px; */
+    margin-left: 800;
     background-color: black;
     color: white;
     border-radius: 5px;

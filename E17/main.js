@@ -8,23 +8,22 @@ function coffeeGuess() {
     var stripped = coffeeArray[randomNumber].toLowerCase();
     console.log(coffeeArray[randomNumber]);
     console.log(stripped);
-    $('body').css('background-color', coffeeArray[randomNumber]);
     $('#submit').click(function() {
         var input = $('input').val();
         var guess = input.toLowerCase();
         console.log(guess);
         if (guess == stripped || guess == coffeeArray[randomNumber]) {
-            $('h1').text(guess + ' is right!');
+            $('h1').text(guess + ' is Correct!');
             $('input').val('');
-            $('.button p').text('Play Again?');
+            $('.button h2').text('Play Again?');
             $('#submit').click(function() {
                 location.reload(true);
             });
         }
         else  {
-            $('h1').text(guess + ' is wrong');
+            $('h1').text(guess + ' is Wrong');
             $('input').val('');
-            $('.button p').text('Play Again?');
+            $('.button h2').text('Play Again?');
             $('#submit').click(function() {
                 location.reload(true);
             });
