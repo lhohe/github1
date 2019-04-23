@@ -1,16 +1,70 @@
+* {
+  box-sizing: border-box;
+}
 h1 {
   font-size: 4em;
   margin: 0;
-  padding: 19vh 0 0 0;
   text-align: center;
   font-family: 'Bangers', cursive;
   text-transform: uppercase;
   letter-spacing: .1em;
 }
+#container {
+  font-family: font-family: 'Anton', sans-serif
+}
+.pink {
+  width: 204px;
+  height: 204px;
+  background-color: pink;
+  position: absolute;
+}
+.red {
+  width: 204px;
+  height: 204px;
+    margin: 182px;
+    background-color: red;
+    position: absolute;
+}
+.orange {
+    width: 204px;
+    height: 204px;
+    margin: 364px;
+    background-color: orange;
+    position: absolute;
+}
+.yellow {
+    width: 204px;
+    height: 204px;
+    margin: 546px;
+    background-color: yellow;
+    position: absolute;
+}
+.green {
+    width: 204px;
+    height: 204px;
+    margin: 730px;
+    background-color: green;
+    position: absolute;
+}
+.blue {
+    width: 204px;
+    height: 204px;
+    margin: 914px;
+    background-color: blue;
+    position: absolute;
+}
+.purple {
+    width: 100px;
+    height: 100px;
+    margin: 1098px:
+    background-color: purple;
+    position: absolute;
+}
 .titleline {
   background-color: orange;
   height: 20px;
   margin: 0;
+  margin-top: 50px;
 }
 .block:hover {
     cursor: cell;
