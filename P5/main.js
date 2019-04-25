@@ -4,7 +4,7 @@ $(document).ready(function() {
     $('#pink').toggleClass('orange');
   });
   $('#red').click(function() {
-    // $('#number4').css('color', 'goldenrod');
+    $('#number4').css('color', 'goldenrod');
     $('#red').toggleClass('text-color-to-white');
     console.log('color change')
   });
