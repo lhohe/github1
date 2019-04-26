@@ -27,15 +27,26 @@ h2 {
 .pink {
   width: 160px;
   height: 160px;
-  transform: rotate(-20deg);
+  /* transform: rotate(-20deg); */
   margin-top: 392px;
   background-color: pink;
   position: absolute;
+  /* padding: 5px 5px 5px 5px; */
+    margin: 5px 1% 5px 1%;
+    /* float: left; */
+    /* position: relative; */
+    transition:height 0.5s;
+    -webkit-transition:height 1s;
+    text-align: center;
+}
+.pink:hover {
+    width: 300px; /* This is the height on hover */
+    cursor: cell;
 }
 .red {
   width: 160px;
   height: 160px;
-  transform: rotate(-20deg);
+  /* transform: rotate(-20deg); */
   margin: 170px;
   margin-top: 392px;
   background-color: red;
@@ -44,7 +55,7 @@ h2 {
 .orange {
   width: 160px;
   height: 204px;
-  transform: rotate(-20deg);
+  /* transform: rotate(-20deg); */
   margin: 320px;
   margin-top: 392px;
   background-color: orange;
@@ -53,7 +64,7 @@ h2 {
 .yellow {
   width: 160px;
   height: 204px;
-  transform: rotate(-20deg);
+  /* transform: rotate(-20deg); */
   margin: 480px;
   margin-top: 392px;
   background-color: yellow;
@@ -62,7 +73,7 @@ h2 {
 .teal{
   width: 160px;
   height: 204px;
-  transform: rotate(-20deg);
+  /* transform: rotate(-20deg); */
   margin: 640px;
   margin-top: 392px;
   background-color: teal;
@@ -71,7 +82,7 @@ h2 {
 .green {
   width: 160px;
   height: 204px;
-  transform: rotate(-20deg);
+  /* transform: rotate(-20deg); */
   margin: 800px;
   margin-top: 392px;
   background-color: green;
@@ -80,7 +91,7 @@ h2 {
 .blue {
   width: 160px;
   height: 204px;
-  transform: rotate(-20deg);
+  /* transform: rotate(-20deg); */
   margin: 960px;
   margin-top: 392px;
   background-color: blue;
@@ -89,12 +100,27 @@ h2 {
 .purple {
   width: 160px;
   height: 204px;
-  transform: rotate(-20deg);
-  margin:1130px;
+  /* transform: rotate(-20deg); */
+  margin:1120px;
   margin-top: 392px;
   background-color: purple;
   position: absolute;
 }
-.block:hover {
+.grow:hover {
   cursor: cell;
+}
+.grow {
+  padding: 5px 5px 5px 5px;
+    height: 50px;
+    width: 22%;
+    margin: 5px 1% 5px 1%;
+    float: left;
+    position: relative;
+    transition:height 0.5s;
+    -webkit-transition:height 0.5s;
+    text-align: center;
+
+}
+.grow:hover {
+    height: 115px; /* This is the height on hover */
 }
