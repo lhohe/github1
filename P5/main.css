@@ -2,8 +2,8 @@
   box-sizing: border-box;
 }
 body {
-  margin: 0:
-  padding: 0;
+  margin: 0px:
+  padding: 0px;
 }
 .titleline {
   z-index: -1;
@@ -26,101 +26,124 @@ h2 {
 }
 .pink {
   width: 160px;
-  height: 160px;
-  /* transform: rotate(-20deg); */
-  margin-top: 392px;
+  height: 204px;
+  margin-top: 150px;
   background-color: pink;
   position: absolute;
-  /* padding: 5px 5px 5px 5px; */
-    margin: 5px 1% 5px 1%;
-    /* float: left; */
-    /* position: relative; */
-    transition:height 0.5s;
+  border-radius: 30%;
     -webkit-transition:height 1s;
     text-align: center;
 }
 .pink:hover {
-    width: 300px; /* This is the height on hover */
+    height: 440px; /* This is the height on hover */
     cursor: cell;
 }
 .red {
   width: 160px;
-  height: 160px;
-  /* transform: rotate(-20deg); */
-  margin: 170px;
-  margin-top: 392px;
+  height: 204px;
+  margin: 160px;
+  margin-top: 150px;
   background-color: red;
   position: absolute;
+  border-radius: 30%;
+  -webkit-transition:height 1s;
+  text-align: center;
+}
+.red:hover {
+    height: 440px; /* This is the height on hover */
+    cursor: cell;
 }
 .orange {
   width: 160px;
   height: 204px;
-  /* transform: rotate(-20deg); */
   margin: 320px;
-  margin-top: 392px;
+  margin-top: 150px;
   background-color: orange;
   position: absolute;
+  border-radius: 30%;
+  -webkit-transition:height 1s;
+  text-align: center;
+}
+.orange:hover {
+    height: 440px; /* This is the height on hover */
+    cursor: cell;
 }
 .yellow {
   width: 160px;
   height: 204px;
-  /* transform: rotate(-20deg); */
   margin: 480px;
-  margin-top: 392px;
+  margin-top: 150px;
   background-color: yellow;
   position: absolute;
+  border-radius: 30%;
+  -webkit-transition:height 1s;
+  text-align: center;
+}
+.yellow:hover {
+    height: 440px; /* This is the height on hover */
+    cursor: cell;
 }
 .teal{
   width: 160px;
   height: 204px;
-  /* transform: rotate(-20deg); */
   margin: 640px;
-  margin-top: 392px;
+  margin-top: 150px;
   background-color: teal;
   position: absolute;
+  border-radius: 30%;
+  -webkit-transition:height 1s;
+  text-align: center;
+}
+.teal:hover {
+    height: 440px; /* This is the height on hover */
+    cursor: cell;
 }
 .green {
   width: 160px;
   height: 204px;
-  /* transform: rotate(-20deg); */
   margin: 800px;
-  margin-top: 392px;
+  margin-top: 150px;
   background-color: green;
   position: absolute;
+  border-radius: 30%;
+  -webkit-transition:height 1s;
+  text-align: center;
+}
+.green:hover {
+    height: 440px; /* This is the height on hover */
+    cursor: cell;
 }
 .blue {
   width: 160px;
   height: 204px;
-  /* transform: rotate(-20deg); */
   margin: 960px;
-  margin-top: 392px;
+  margin-top: 150px;
   background-color: blue;
   position: absolute;
+  border-radius: 30%;
+  -webkit-transition:height 1s;
+  text-align: center;
+}
+.blue:hover {
+    height: 440px; /* This is the height on hover */
+    cursor: cell;
 }
 .purple {
   width: 160px;
   height: 204px;
-  /* transform: rotate(-20deg); */
   margin:1120px;
-  margin-top: 392px;
+  margin-top: 150px;
   background-color: purple;
   position: absolute;
+  border-radius: 30%;
+  -webkit-transition:height 1s;
+  text-align: center;
 }
-.grow:hover {
-  cursor: cell;
+.purple:hover {
+    height: 440px; /* This is the height on hover */
+    cursor: cell;
 }
-.grow {
-  padding: 5px 5px 5px 5px;
-    height: 50px;
-    width: 22%;
-    margin: 5px 1% 5px 1%;
-    float: left;
-    position: relative;
-    transition:height 0.5s;
-    -webkit-transition:height 0.5s;
-    text-align: center;
-
-}
-.grow:hover {
-    height: 115px; /* This is the height on hover */
+.b1 {
+  color: white;
+  background-color: orange;
 }
